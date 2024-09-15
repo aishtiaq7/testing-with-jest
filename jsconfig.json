@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // or any version of ES you're using
+    "module": "commonjs",
+    "checkJs": true, // Enable type checking for JavaScript files
+    "baseUrl": "./",
+    "paths": {
+      "*": ["node_modules/@types/*"]
+    }
+  },
+  "include": ["**/*.js"] // Includes all JS files in the project
+}
